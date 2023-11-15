@@ -309,7 +309,7 @@ function getSumToN(n) {
     arr[i + 1] = arr[i] + 1;
     i += 1;
   }
-  const sum = arr.reduce(function (summary, cur) {
+  const sum = arr.reduce(function getSum(summary, cur) {
     return summary + cur;
   });
   return sum;
